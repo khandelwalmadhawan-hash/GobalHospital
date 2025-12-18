@@ -1,0 +1,39 @@
+.head1 {
+    text-align: center;
+    background-color: rgb(69, 204, 204);
+    border-radius: 30px;
+}
+
+.head2 {
+    border-radius: 50px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    gap: 80px;
+    margin: 30px;
+}
+
+.image {
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.content {
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.Speciality,h2,hr {
+    background-color: white;
+}
+
+.abc {
+    font-size: 30px;
+    background-color: rgb(69, 204, 204);
+}
+
+.body {
+    border-radius: 30px;
+}

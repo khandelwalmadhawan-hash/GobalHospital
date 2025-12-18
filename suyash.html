@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment</title>
+    <link rel="stylesheet" href="suyash.css">
+     <link rel="stylesheet" href="suyash2.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+        <div class="anime">
+            <marquee><p>INTRODUCING THE NEW-STAGE-OF-THE-ART TOWER AT KERALA GLOBAL HOSPITAL</p></marquee>
+        </div>
+    </header>
+    <!--1ST HEADER-->
+   <div class="sticky">
+    <header class="toppest">
+        <a href="tel:9268880303"><span><i class="fa-solid fa-phone"></i> Emergency: +91 9268880303</span></a>
+        <a href="mailto:globalhealth@gmail.com"><span><i class="fa-solid fa-message"></i> globalhealth@gmail.com</span></a>
+        
+        <div class="Service">
+           <i class="fa-solid fa-sun"></i> <select>
+                <option value="Select Option" class="opt">Services</option>
+                <option value="Find Doctor" class="opt">🧑‍⚕ Find Doctor</option>
+                <a href="http://127.0.0.1:5500/suyash.html?" target="_blank"><option value="Book Appointment" class="opt">📋 Book Appointment</option></a>
+                <a href="suyash.html"><option value="Book Health Check" class="opt">🧾 Book Health Check</option></a>
+                <option value="Ambulance Service" class="opt">🚑 Ambulance Service</option>
+            </select>
+        </div>
+    </header>
+    <!--2ND HEADER-->
+     <header class="top">
+        <div class="box">
+           <img src="hp.avif" alt="logo" class="logo-icon">
+          <div class="fix">
+             <h2 class="font">GLOBAL</h2>
+              <p id="font">SUPER SPECIALITY HOSPITAL</p>
+          </div>
+        </div>
+         <div class="search-box">
+        <input type="text" placeholder="Search..." class="search-input">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+         </div>
+    </header>
+</div>
+     
+    <header>
+        <h1>Doctor Appointment Booking</h1>
+        <p>Your health, our priority.</p>
+    </header>
+
+    <section class="appointment-form">
+        <h2>Book an Appointment</h2>
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" placeholder="Enter your phone number" required>
+
+            <label for="doctor">Select Doctor</label>
+            <select id="doctor" required>
+                <option>Select a doctor</option>
+                <option>Dr. John Smith - Cardiologist</option>
+                <option>Dr. Anna Brown - Pediatrician</option>
+                <option>Dr. Mark Wilson - Dermatologist</option>
+            </select>
+
+            <label for="date">Select Date</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Select Time</label>
+            <input type="time" id="time" required>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Doctor Appointment System | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

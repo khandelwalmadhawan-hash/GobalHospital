@@ -1,0 +1,43 @@
+.box{
+  width: 100%;
+  background-color: #fffffff1;
+  padding: 1px ;/*white border(SAALO YE MAI LIKHA)*/
+  border-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding: 1px 35px;
+  border-bottom: 5px solid #465d8e;
+  border-top: 5px solid #465d8e;
+}
+
+.logo-icon{
+  width: auto;
+  height: 90px;
+}
+
+.fix{
+   line-height: 1.2;
+}
+
+.font{
+  font-family: 'Georgia', serif;
+  font-weight: 700;
+  font-size: 2.2em;
+  margin: 0;
+  color: rgb(17, 101, 225);
+}
+
+#font{
+  font-size: 1em;
+  margin: 0;
+  line-height: 2rem;
+  color: rgba(48, 48, 48, 0.721);
+}
